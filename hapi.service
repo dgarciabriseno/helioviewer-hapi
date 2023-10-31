@@ -1,0 +1,15 @@
+[Unit]
+Description=Nodejs HAPI server running on localhost
+After=network.target
+
+[Service]
+PrivateTmp=true
+# Update these environment settings
+Environment="HAPISERVERPATH=" "PYTHONEXE=" "DB_USER=" "DB_PASSWORD=" "DB_NAME=" "DB_HOST=" "HOSTNAME="
+User=<Place non root user here>
+Group=<Place non root group here>
+PIDFile=/var/run/hapi_nodejs/%i.pid
+ExecStart=node server.js --file $HAPISERVERPATH/meta.json
+
+[Install]
+WantedBy=multi-user.target
