@@ -16,7 +16,10 @@ password = os.environ["DB_PASSWORD"]
 dbname = os.environ["DB_NAME"]
 dbhost = os.environ["DB_HOST"] if "DB_HOST" in os.environ else "localhost"
 engine = create_engine(
-    f"mysql+pymysql://{user}:{password}@{dbhost}/{dbname}", pool_recycle=3600
+    f"mysql+pymysql://{user}:{password}@{dbhost}/{dbname}",
+    pool_size=10,
+    max_overflow=0,
+    pool_recycle=3600,
 )
 
 
