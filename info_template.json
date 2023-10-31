@@ -14,7 +14,8 @@
       "type": "string",
       "length": 255,
       "units": null,
-      "description": "Path to jp2 image"
+      "description": "Path to jp2 image",
+      "fill": null
     }
   ]
 }
