@@ -9,7 +9,7 @@ Clone [server-nodejs](https://github.com/hapi-server/server-nodejs).
 Run with the following environment variables and parameters:
 
 ```bash
-HAPISERVERPATH=path/to/this/repo PYTHONEXE=path/to/python/venv DB_USER=db_username DB_PASSWORD=db_password DB_NAME=db_name node server.js --file path/to/meta.json
+HAPISERVERPATH=path/to/this/repo PYTHONEXE=path/to/python/venv DB_USER=db_username DB_PASSWORD=db_password DB_HOST=localhost DB_NAME=db_name HOSTNAME=http://domain node server.js --file path/to/meta.json
 ```
 
 | parameter      | description                                          |
@@ -20,6 +20,7 @@ HAPISERVERPATH=path/to/this/repo PYTHONEXE=path/to/python/venv DB_USER=db_userna
 | DB_PASSWORD    | Database password                                    |
 | DB_NAME        | Name of helioviewer database                         |
 | DB_HOST        | Optional database host. Defaults to localhost        |
+| HOSTNAME | http(s) url to prefix on the image urls. |
 
 ## Running tests
 Run pytest as a module in the src directory with environment variables set.
