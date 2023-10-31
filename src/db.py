@@ -15,10 +15,14 @@ user = os.environ["DB_USER"]
 password = os.environ["DB_PASSWORD"]
 dbname = os.environ["DB_NAME"]
 dbhost = os.environ["DB_HOST"] if "DB_HOST" in os.environ else "localhost"
-engine = create_engine(f"mysql+pymysql://{user}:{password}@{dbhost}/{dbname}", pool_recycle=3600)
+engine = create_engine(
+    f"mysql+pymysql://{user}:{password}@{dbhost}/{dbname}", pool_recycle=3600
+)
+
 
 class _Base(DeclarativeBase):
     pass
+
 
 # Define the relevant portion of helioviewer's data table for use with the query builder
 class DataRow(_Base):
@@ -44,8 +48,9 @@ class DataRow(_Base):
     def __repr__(self) -> str:
         return self.url
 
+
 class HAPIDataset:
-    def __init__(self, id:str) -> None:
+    def __init__(self, id: str) -> None:
         """
         Construct a HAPI dataset which can be used to get data from the underlying database
 
@@ -55,7 +60,6 @@ class HAPIDataset:
             Dataset ID
         """
         self.id = DataSource[id].value
-
 
     def _select(self, selector: any) -> Select:
         """
@@ -105,6 +109,11 @@ class HAPIDataset:
         """
         Returns all rows between the given start and stop times
         """
-        stmt = self._select(DataRow).where(DataRow.date >= start).where(DataRow.date <= stop).order_by(DataRow.date.asc())
+        stmt = (
+            self._select(DataRow)
+            .where(DataRow.date >= start)
+            .where(DataRow.date <= stop)
+            .order_by(DataRow.date.asc())
+        )
         result = self._exec(stmt)
         return map(lambda row: row[0], result)

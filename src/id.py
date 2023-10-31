@@ -8,6 +8,7 @@ import json
 from common import DATE_FORMAT
 from db import HAPIDataset
 
+
 def get_info(id: str) -> dict:
     """
     Gets database info for the given dataset id
@@ -23,6 +24,7 @@ def get_info(id: str) -> dict:
     template["startDate"] = dataset.GetStartDate().strftime(DATE_FORMAT)
     template["stopDate"] = dataset.GetStopDate().strftime(DATE_FORMAT)
     return template
+
 
 def print_info(id: str):
     """
