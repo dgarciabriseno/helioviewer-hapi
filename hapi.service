@@ -5,12 +5,11 @@ After=network.target
 [Service]
 PrivateTmp=true
 # Update these environment settings
-Environment="HAPISERVERPATH=<path/to/meta.js/directory>" "HAPISERVERHOME=<path/to/server-nodejs>" "PYTHONEXE=" "DB_USER=" "DB_PASSWORD=" "DB_NAME=" "DB_HOST=" "HOSTNAME="
-User=<Place non root user here>
-Group=<Place non root group here>
-PIDFile=/var/run/hapi_nodejs/%i.pid
-ExecStart=node $HAPISERVERHOME/server.js --file $HAPISERVERPATH/meta.json
-Restart=on-failure
+Environment="HAPISERVERPATH=<path/to/helioviewer-hapi>" "HAPISERVERHOME=<path/to/server-nodejs>" "PYTHONEXE=" "DB_USER=" "DB_PASSWORD=" "DB_NAME=" "DB_HOST=" "HOSTNAME="
+User=<some non root user>
+Group=<some non root user>
+PIDFile=/var/run/hapi_nodejs/hapi.pid
+ExecStart=node ${HAPISERVERHOME}/server.js --file ${HAPISERVERPATH}/meta.json
 
 [Install]
 WantedBy=multi-user.target

@@ -4,6 +4,7 @@ Returns metadata info for the given dataset
 
 from argparse import ArgumentParser
 import json
+import os
 
 from common import DATE_FORMAT
 from db import HAPIDataset
@@ -18,7 +19,7 @@ def get_info(id: str) -> dict:
     id: `str`
         Dataset id to query information for
     """
-    with open("../info_template.json", "r") as fp:
+    with open(f"{os.environ['HAPISERVERPATH']}/info_template.json", "r") as fp:
         template = json.load(fp)
     dataset = HAPIDataset(id)
     template["startDate"] = dataset.GetStartDate().strftime(DATE_FORMAT)
