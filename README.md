@@ -33,9 +33,9 @@ DB_USER= DB_PASSWORD= DB_HOST= DB_NAME= python -m pytest
 
 HAPI server metadata. See [server-nodejs](https://github.com/hapi-server/server-nodejs#5-metadata) for formatting details.
 
-## hapi.py
+## src
 
-Program to read from database and output to HAPI.
+Source for the CLI which returns csv data for the generic hapi server.
 
 ## info_template.json
 
@@ -46,3 +46,6 @@ hapi.py fills in dataset specific details
 
 Dependencies for `hapi.py`.
 Install with `pip install -r requirements.txt`
+
+## hapi.service
+Systemd template for running the hapi service locally
