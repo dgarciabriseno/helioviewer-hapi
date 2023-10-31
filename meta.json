@@ -10,6 +10,565 @@
     "contact": "helioviewerdevelopment@nasa.onmicrosoft.com"
   },
   "catalog": [
-    { "id": "AIA_304", "title": "SDO AIA 304", "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id AIA_304" }
+    {
+      "id": "EIT_171",
+      "title": "SOHO instrument EIT, measurement 171.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id EIT_171"
+    },
+    {
+      "id": "EIT_195",
+      "title": "SOHO instrument EIT, measurement 195.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id EIT_195"
+    },
+    {
+      "id": "EIT_284",
+      "title": "SOHO instrument EIT, measurement 284.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id EIT_284"
+    },
+    {
+      "id": "EIT_304",
+      "title": "SOHO instrument EIT, measurement 304.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id EIT_304"
+    },
+    {
+      "id": "LASCO_C2",
+      "title": "SOHO instrument LASCO, measurement C2.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id LASCO_C2"
+    },
+    {
+      "id": "LASCO_C3",
+      "title": "SOHO instrument LASCO, measurement C3.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id LASCO_C3"
+    },
+    {
+      "id": "MDI_MAG",
+      "title": "SOHO instrument MDI, measurement magnetogram.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id MDI_MAG"
+    },
+    {
+      "id": "MDI_INT",
+      "title": "SOHO instrument MDI, measurement continuum.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id MDI_INT"
+    },
+    {
+      "id": "AIA_94",
+      "title": "SDO instrument AIA, measurement 94.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id AIA_94"
+    },
+    {
+      "id": "AIA_131",
+      "title": "SDO instrument AIA, measurement 131.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id AIA_131"
+    },
+    {
+      "id": "AIA_171",
+      "title": "SDO instrument AIA, measurement 171.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id AIA_171"
+    },
+    {
+      "id": "AIA_193",
+      "title": "SDO instrument AIA, measurement 193.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id AIA_193"
+    },
+    {
+      "id": "AIA_211",
+      "title": "SDO instrument AIA, measurement 211.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id AIA_211"
+    },
+    {
+      "id": "AIA_304",
+      "title": "SDO instrument AIA, measurement 304.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id AIA_304"
+    },
+    {
+      "id": "AIA_335",
+      "title": "SDO instrument AIA, measurement 335.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id AIA_335"
+    },
+    {
+      "id": "AIA_1600",
+      "title": "SDO instrument AIA, measurement 1600.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id AIA_1600"
+    },
+    {
+      "id": "AIA_1700",
+      "title": "SDO instrument AIA, measurement 1700.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id AIA_1700"
+    },
+    {
+      "id": "AIA_4500",
+      "title": "SDO instrument AIA, measurement 4500.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id AIA_4500"
+    },
+    {
+      "id": "HMI_INT",
+      "title": "SDO instrument HMI, measurement continuum.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id HMI_INT"
+    },
+    {
+      "id": "HMI_MAG",
+      "title": "SDO instrument HMI, measurement magnetogram.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id HMI_MAG"
+    },
+    {
+      "id": "EUVI_A_171",
+      "title": "STEREO_A instrument SECCHI, detector EUVI, measurement 171.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id EUVI_A_171"
+    },
+    {
+      "id": "EUVI_A_195",
+      "title": "STEREO_A instrument SECCHI, detector EUVI, measurement 195.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id EUVI_A_195"
+    },
+    {
+      "id": "EUVI_A_284",
+      "title": "STEREO_A instrument SECCHI, detector EUVI, measurement 284.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id EUVI_A_284"
+    },
+    {
+      "id": "EUVI_A_304",
+      "title": "STEREO_A instrument SECCHI, detector EUVI, measurement 304.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id EUVI_A_304"
+    },
+    {
+      "id": "EUVI_B_171",
+      "title": "STEREO_B instrument SECCHI, detector EUVI, measurement 171.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id EUVI_B_171"
+    },
+    {
+      "id": "EUVI_B_195",
+      "title": "STEREO_B instrument SECCHI, detector EUVI, measurement 195.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id EUVI_B_195"
+    },
+    {
+      "id": "EUVI_B_284",
+      "title": "STEREO_B instrument SECCHI, detector EUVI, measurement 284.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id EUVI_B_284"
+    },
+    {
+      "id": "EUVI_B_304",
+      "title": "STEREO_B instrument SECCHI, detector EUVI, measurement 304.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id EUVI_B_304"
+    },
+    {
+      "id": "COR1_A",
+      "title": "STEREO_A instrument SECCHI, detector COR1, measurement white-light.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id COR1_A"
+    },
+    {
+      "id": "COR2_A",
+      "title": "STEREO_A instrument SECCHI, detector COR2, measurement white-light.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id COR2_A"
+    },
+    {
+      "id": "COR1_B",
+      "title": "STEREO_B instrument SECCHI, detector COR1, measurement white-light.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id COR1_B"
+    },
+    {
+      "id": "COR2_B",
+      "title": "STEREO_B instrument SECCHI, detector COR2, measurement white-light.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id COR2_B"
+    },
+    {
+      "id": "SWAP_174",
+      "title": "PROBA2 instrument SWAP, measurement 174.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id SWAP_174"
+    },
+    {
+      "id": "SXT_ALMGMN",
+      "title": "Yohkoh instrument SXT, measurement AlMgMn.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id SXT_ALMGMN"
+    },
+    {
+      "id": "SXT_THIN_AL",
+      "title": "Yohkoh instrument SXT, measurement thin-Al.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id SXT_THIN_AL"
+    },
+    {
+      "id": "SXT_WHITE_LIGHT",
+      "title": "Yohkoh instrument SXT, measurement white-light.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id SXT_WHITE_LIGHT"
+    },
+    {
+      "id": "XRT_AL_MED_AL_MESH",
+      "title": "Hinode instrument XRT Al-med/Al-mesh.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_AL_MED_AL_MESH"
+    },
+    {
+      "id": "XRT_AL_MED_AL_THICK",
+      "title": "Hinode instrument XRT Al_med/Al_thick.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_AL_MED_AL_THICK"
+    },
+    {
+      "id": "XRT_AL_MED_BE_THICK",
+      "title": "Hinode instrument XRT Al_med/Be_thick.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_AL_MED_BE_THICK"
+    },
+    {
+      "id": "XRT_AL_MED_GBAND",
+      "title": "Hinode instrument XRT Al_med/GBand.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_AL_MED_GBAND"
+    },
+    {
+      "id": "XRT_AL_MED_OPEN",
+      "title": "Hinode instrument XRT Al_med/Open.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_AL_MED_OPEN"
+    },
+    {
+      "id": "XRT_AL_MED_TI_POLY",
+      "title": "Hinode instrument XRT Al_med/Ti_poly.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_AL_MED_TI_POLY"
+    },
+    {
+      "id": "XRT_AL_POLY_AL_mesh",
+      "title": "Hinode instrument XRT Al_poly/Al_mesh.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_AL_POLY_AL_mesh"
+    },
+    {
+      "id": "XRT_AL_POLY_AL_THICK",
+      "title": "Hinode instrument XRT Al_poly/Al_thick.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_AL_POLY_AL_THICK"
+    },
+    {
+      "id": "XRT_AL_POLY_BE_THICK",
+      "title": "Hinode instrument XRT Al_poly/Be_thick.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_AL_POLY_BE_THICK"
+    },
+    {
+      "id": "XRT_AL_POLY_GBAND",
+      "title": "Hinode instrument XRT Al_poly/GBand.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_AL_POLY_GBAND"
+    },
+    {
+      "id": "XRT_AL_POLY_OPEN",
+      "title": "Hinode instrument XRT Al_poly/Open.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_AL_POLY_OPEN"
+    },
+    {
+      "id": "XRT_AL_POLY_TI_POLY",
+      "title": "Hinode instrument XRT Al_poly/Ti_poly.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_AL_POLY_TI_POLY"
+    },
+    {
+      "id": "XRT_BE_MED_AL_MESH",
+      "title": "Hinode instrument XRT Be_med/Al_mesh.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_BE_MED_AL_MESH"
+    },
+    {
+      "id": "XRT_BE_MED_AL_THICK",
+      "title": "Hinode instrument XRT Be_med/Al_thick.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_BE_MED_AL_THICK"
+    },
+    {
+      "id": "XRT_BE_MED_BE_THICK",
+      "title": "Hinode instrument XRT Be_med/Be_thick.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_BE_MED_BE_THICK"
+    },
+    {
+      "id": "XRT_BE_MED_GBAND",
+      "title": "Hinode instrument XRT Be_med/GBand.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_BE_MED_GBAND"
+    },
+    {
+      "id": "XRT_BE_MED_OPEN",
+      "title": "Hinode instrument XRT Be_med/Open.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_BE_MED_OPEN"
+    },
+    {
+      "id": "XRT_BE_MED_TI_POLY",
+      "title": "Hinode instrument XRT Be_med/Ti_poly.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_BE_MED_TI_POLY"
+    },
+    {
+      "id": "XRT_BE_THIN_AL_MESH",
+      "title": "Hinode instrument XRT Be_thin/Al_mesh.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_BE_THIN_AL_MESH"
+    },
+    {
+      "id": "XRT_BE_THIN_AL_THICK",
+      "title": "Hinode instrument XRT Be_thin/Al_thick.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_BE_THIN_AL_THICK"
+    },
+    {
+      "id": "XRT_BE_THIN_BE_THICK",
+      "title": "Hinode instrument XRT Be_thin/Be_thick.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_BE_THIN_BE_THICK"
+    },
+    {
+      "id": "XRT_BE_THIN_GBAND",
+      "title": "Hinode instrument XRT Be_thin/GBand.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_BE_THIN_GBAND"
+    },
+    {
+      "id": "XRT_BE_THIN_OPEN",
+      "title": "Hinode instrument XRT Be_thin/Open.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_BE_THIN_OPEN"
+    },
+    {
+      "id": "XRT_BE_THIN_TI_POLY",
+      "title": "Hinode instrument XRT Be_thin/Ti_poly.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_BE_THIN_TI_POLY"
+    },
+    {
+      "id": "XRT_C_POLY_AL_MESH",
+      "title": "Hinode instrument XRT C_poly/Al_mesh.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_C_POLY_AL_MESH"
+    },
+    {
+      "id": "XRT_C_POLY_AL_THICK",
+      "title": "Hinode instrument XRT C_poly/Al_thick.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_C_POLY_AL_THICK"
+    },
+    {
+      "id": "XRT_C_POLY_BE_THICK",
+      "title": "Hinode instrument XRT C_poly/Be_thick.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_C_POLY_BE_THICK"
+    },
+    {
+      "id": "XRT_C_POLY_GBAND",
+      "title": "Hinode instrument XRT C_poly/GBand.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_C_POLY_GBAND"
+    },
+    {
+      "id": "XRT_C_POLY_OPEN",
+      "title": "Hinode instrument XRT C_poly/Open.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_C_POLY_OPEN"
+    },
+    {
+      "id": "XRT_C_POLY_TI_POLY",
+      "title": "Hinode instrument XRT C_poly/Ti_poly.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_C_POLY_TI_POLY"
+    },
+    {
+      "id": "XRT_MISPOSITIONED_MISPOSITIONED",
+      "title": "Hinode instrument XRT Mispositioned/Mispositioned.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_MISPOSITIONED_MISPOSITIONED"
+    },
+    {
+      "id": "XRT_OPEN_AL_MESH",
+      "title": "Hinode instrument XRT Open/Al_mesh.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_OPEN_AL_MESH"
+    },
+    {
+      "id": "XRT_OPEN_AL_THICK",
+      "title": "Hinode instrument XRT Open/Al_thick.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_OPEN_AL_THICK"
+    },
+    {
+      "id": "XRT_OPEN_BE_THICK",
+      "title": "Hinode instrument XRT Open/Be_thick.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_OPEN_BE_THICK"
+    },
+    {
+      "id": "XRT_OPEN_GBAND",
+      "title": "Hinode instrument XRT Open/GBand.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_OPEN_GBAND"
+    },
+    {
+      "id": "XRT_OPEN_OPEN",
+      "title": "Hinode instrument XRT Open/Open.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_OPEN_OPEN"
+    },
+    {
+      "id": "XRT_OPEN_TI_POLY",
+      "title": "Hinode instrument XRT Open/Ti_poly.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_OPEN_TI_POLY"
+    },
+    {
+      "id": "TRACE_171",
+      "title": "TRACE measurement 171.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id TRACE_171"
+    },
+    {
+      "id": "TRACE_195",
+      "title": "TRACE measurement 195.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id TRACE_195"
+    },
+    {
+      "id": "TRACE_284",
+      "title": "TRACE measurement 284.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id TRACE_284"
+    },
+    {
+      "id": "TRACE_1216",
+      "title": "TRACE measurement 1216.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id TRACE_1216"
+    },
+    {
+      "id": "TRACE_1550",
+      "title": "TRACE measurement 1550.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id TRACE_1550"
+    },
+    {
+      "id": "TRACE_1600",
+      "title": "TRACE measurement 1600.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id TRACE_1600"
+    },
+    {
+      "id": "TRACE_1700",
+      "title": "TRACE measurement 1700.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id TRACE_1700"
+    },
+    {
+      "id": "TRACE_WHITE_LIGHT",
+      "title": "TRACE measurement white-light.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id TRACE_WHITE_LIGHT"
+    },
+    {
+      "id": "COSMO_KCOR",
+      "title": "MLSO instrument COSMO, detector KCor, measurement 735.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id COSMO_KCOR"
+    },
+    {
+      "id": "EUI_FSI_174",
+      "title": "Solar Orbiter instrument FSI, measurement 174.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id EUI_FSI_174"
+    },
+    {
+      "id": "EUI_FSI_304",
+      "title": "Solar Orbiter instrument FSI, measurement 304.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id EUI_FSI_304"
+    },
+    {
+      "id": "EUI_HRI_174",
+      "title": "Solar Orbiter instrument HRI, measurement 174.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id EUI_HRI_174"
+    },
+    {
+      "id": "EUI_HRI_1216",
+      "title": "Solar Orbiter instrument HRI, measurement 1216.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id EUI_HRI_1216"
+    },
+    {
+      "id": "IRIS_SJI_1330",
+      "title": "IRIS Slit Jaw Imager, measurement 1330.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id IRIS_SJI_1330"
+    },
+    {
+      "id": "IRIS_SJI_2796",
+      "title": "IRIS Slit Jaw Imager, measurement 2796.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id IRIS_SJI_2796"
+    },
+    {
+      "id": "IRIS_SJI_1400",
+      "title": "IRIS Slit Jaw Imager, measurement 1400.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id IRIS_SJI_1400"
+    },
+    {
+      "id": "IRIS_SJI_2832",
+      "title": "IRIS Slit Jaw Imager, measurement 2832.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id IRIS_SJI_2832"
+    },
+    {
+      "id": "GONG_MAGNETOGRAM",
+      "title": "NSO GONG Magnetograms.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id GONG_MAGNETOGRAM"
+    },
+    {
+      "id": "GONG_H_ALPHA",
+      "title": "NSO GONG H-Alpha.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id GONG_H_ALPHA"
+    },
+    {
+      "id": "GONG_FARSIDE",
+      "title": "NSO GONG Farside.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id GONG_FARSIDE"
+    },
+    {
+      "id": "SUVI_94",
+      "title": "GOES-R instrument SUVI, measurement 94.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id SUVI_94"
+    },
+    {
+      "id": "SUVI_131",
+      "title": "GOES-R instrument SUVI, measurement 131.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id SUVI_131"
+    },
+    {
+      "id": "SUVI_171",
+      "title": "GOES-R instrument SUVI, measurement 171.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id SUVI_171"
+    },
+    {
+      "id": "SUVI_195",
+      "title": "GOES-R instrument SUVI, measurement 195.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id SUVI_195"
+    },
+    {
+      "id": "SUVI_284",
+      "title": "GOES-R instrument SUVI, measurement 284.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id SUVI_284"
+    },
+    {
+      "id": "SUVI_304",
+      "title": "GOES-R instrument SUVI, measurement 304.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id SUVI_304"
+    },
+    {
+      "id": "XRT_ANY_ANY",
+      "title": "Hinode instrument XRT any/any.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_ANY_ANY"
+    },
+    {
+      "id": "XRT_ANY_AL_MESH",
+      "title": "Hinode instrument XRT any/Al_mesh.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_ANY_AL_MESH"
+    },
+    {
+      "id": "XRT_ANY_AL_THICK",
+      "title": "Hinode instrument XRT any/Al_thick.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_ANY_AL_THICK"
+    },
+    {
+      "id": "XRT_ANY_BE_THICK",
+      "title": "Hinode instrument XRT any/Be_thick.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_ANY_BE_THICK"
+    },
+    {
+      "id": "XRT_ANY_GBAND",
+      "title": "Hinode instrument XRT any/GBand.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_ANY_GBAND"
+    },
+    {
+      "id": "XRT_ANY_OPEN",
+      "title": "Hinode instrument XRT any/Open.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_ANY_OPEN"
+    },
+    {
+      "id": "XRT_ANY_TI_POLY",
+      "title": "Hinode instrument XRT any/Ti_poly.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_ANY_TI_POLY"
+    },
+    {
+      "id": "XRT_AL_MED_ANY",
+      "title": "Hinode instrument XRT Al_med/any.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_AL_MED_ANY"
+    },
+    {
+      "id": "XRT_AL_POLY_ANY",
+      "title": "Hinode instrument XRT Al_poly/any.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_AL_POLY_ANY"
+    },
+    {
+      "id": "XRT_BE_MED_ANY",
+      "title": "Hinode instrument XRT Be_med/any.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_BE_MED_ANY"
+    },
+    {
+      "id": "XRT_BE_THIN_ANY",
+      "title": "Hinode instrument XRT Be_thin/any.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_BE_THIN_ANY"
+    },
+    {
+      "id": "XRT_C_POLY_ANY",
+      "title": "Hinode instrument XRT C_poly/any.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_C_POLY_ANY"
+    },
+    {
+      "id": "XRT_OPEN_ANY",
+      "title": "Hinode instrument XRT Open/any.",
+      "info": "$PYTHONEXE $HAPISERVERPATH/src/id.py --id XRT_OPEN_ANY"
+    }
   ]
 }
