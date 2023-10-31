@@ -1,0 +1,15 @@
+{
+  "server": {
+    "id": "Helioviewer",
+    "contact": "helioviewerdevelopment@nasa.onmicrosoft.com",
+    "HAPI": "3.1"
+  },
+  "data": {
+    "command": "$PYTHONEXE $HAPISERVERPATH/hapi.py",
+    "formats": ["csv"],
+    "contact": "helioviewerdevelopment@nasa.onmicrosoft.com"
+  },
+  "catalog": [
+    { "id": "AIA_304", "title": "SDO AIA 304", "info": "info/aia_304.json" }
+  ]
+}
