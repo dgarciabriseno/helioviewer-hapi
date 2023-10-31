@@ -10,6 +10,7 @@ User=<Place non root user here>
 Group=<Place non root group here>
 PIDFile=/var/run/hapi_nodejs/%i.pid
 ExecStart=node server.js --file $HAPISERVERPATH/meta.json
+Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
