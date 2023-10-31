@@ -5,7 +5,7 @@
     "HAPI": "3.1"
   },
   "data": {
-    "command": "$PYTHONEXE $HAPISERVERPATH/hapi.py",
+    "command": "$PYTHONEXE $HAPISERVERPATH/src/hapi.py",
     "formats": ["csv"],
     "contact": "helioviewerdevelopment@nasa.onmicrosoft.com"
   },
