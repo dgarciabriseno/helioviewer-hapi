@@ -35,7 +35,7 @@ class DataRow(_Base):
 
     @property
     def url(self):
-        return f"{HOSTNAME}{self.filepath}/{self.filename}"
+        return f"{HOSTNAME}/jp2{self.filepath}/{self.filename}"
 
     def to_csv(self, columns: list[str]) -> str:
         # Special case when "Time" is the only parameter
