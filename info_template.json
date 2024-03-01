@@ -24,6 +24,48 @@
       "units": null,
       "description": "Relative path to image file, excludes server url",
       "fill": null
+    },
+    {
+      "name": "refPixelX",
+      "type": "double",
+      "units": null,
+      "description": "X coordinate of reference pixel",
+      "fill": null
+    },
+    {
+      "name": "refPixelY",
+      "type": "double",
+      "units": null,
+      "description": "Y coordinate of reference pixel",
+      "fill": null
+    },
+    {
+      "name": "scale",
+      "type": "double",
+      "units": null,
+      "description": "Image scale in arcseconds/pixel",
+      "fill": null
+    },
+    {
+      "name": "width",
+      "type": "integer",
+      "units": null,
+      "description": "Image width in pixels",
+      "fill": null
+    },
+    {
+      "name": "height",
+      "type": "integer",
+      "units": null,
+      "description": "Image height in pixels",
+      "fill": null
+    },
+    {
+      "name": "rotation",
+      "type": "double",
+      "units": null,
+      "description": "Image rotation in degrees",
+      "fill": null
     }
   ]
 }

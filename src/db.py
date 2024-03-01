@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 from typing import Iterable
 
-from sqlalchemy import create_engine, Integer, String, DateTime, select, Select, func
+from sqlalchemy import create_engine, Integer, String, DateTime, select, Select, func, Float
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, Session
 from hvpy import DataSource
 
@@ -35,14 +35,24 @@ class DataRow(_Base):
     filename: Mapped[str] = mapped_column(String(255))
     date: Mapped[datetime] = mapped_column(DateTime)
     sourceId: Mapped[int] = mapped_column(Integer)
+    refPixelX: Mapped[float] = mapped_column(Float)
+    refPixelY: Mapped[float] = mapped_column(Float)
+    scale: Mapped[float] = mapped_column(Float)
+    width: Mapped[int] = mapped_column(Integer)
+    height: Mapped[int] = mapped_column(Integer)
+    CROTA1: Mapped[float] = mapped_column(Float)
 
     @property
     def url(self):
         return f"{HOSTNAME}{self.filepath}/{self.filename}"
-    
+
     @property
     def path(self):
         return f"{self.filepath}/{self.filename}"
+
+    @property
+    def rotation(self):
+        return self.CROTA1
 
     def to_csv(self, columns: list[str]) -> str:
         # Special case when "Time" is the only parameter
