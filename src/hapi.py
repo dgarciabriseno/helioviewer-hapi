@@ -49,7 +49,7 @@ if __name__ == "__main__":
         help="Start of query range",
     )
     parser.add_argument(
-        "--stop", required=True, type=datetime.fromisoformat, help="Stop of query range"
+        "--stop", required=True, type=parse_date, help="Stop of query range"
     )
     args = parser.parse_args()
     parameters = args.parameters.split(",")
