@@ -6,6 +6,7 @@ to be served by the generic HAPI server.
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 from datetime import datetime
 from typing import Iterable
+from sunpy.time import parse_time
 
 from db import HAPIDataset, DataRow
 
@@ -27,6 +28,8 @@ def get_data(
     rows = ds.Get(start, stop)
     return Result(rows, parameters)
 
+def parse_date(date: str) -> datetime:
+    return parse_time(date).datetime
 
 if __name__ == "__main__":
     parser = ArgumentParser(
@@ -42,7 +45,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--start",
         required=True,
-        type=datetime.fromisoformat,
+        type=parse_date,
         help="Start of query range",
     )
     parser.add_argument(
