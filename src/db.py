@@ -58,7 +58,7 @@ class DataRow(_Base):
         # Special case when "Time" is the only parameter
         if len(columns) == 1 and columns[0] == "Time":
             return self.date.strftime(DATE_FORMAT)
-        _columns = list(map(lambda x: getattr(self, x), columns))
+        _columns = list(map(lambda x: str(getattr(self, x)), columns))
         _columns.insert(0, self.date.strftime(DATE_FORMAT))
         return ",".join(_columns)
 
