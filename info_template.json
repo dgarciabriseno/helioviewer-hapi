@@ -16,6 +16,14 @@
       "units": null,
       "description": "Path to jp2 image",
       "fill": null
+    },
+    {
+      "name": "path",
+      "type": "string",
+      "length": 255,
+      "units": null,
+      "description": "Relative path to image file, excludes server url",
+      "fill": null
     }
   ]
 }
